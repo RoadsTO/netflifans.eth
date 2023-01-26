@@ -11,8 +11,7 @@ Accepts three query parameters:
 
 ## Usage Examples:
 
-- [Big Buck Bunny](https://ipfsvideo.cc/?hash=QmdpAidwAsBGptFB3b6A9Pyi5coEbgjHrL3K2Qrsutmj9K&title=Big%20Buck%20Bunny)
-- [What is the Royal Path? - Royal Path 001](https://ipfsvideo.cc/?hash=QmYzdc44xBkVgp8aWJW57KprjDs5j2hmN8g7eDqm5pvY8L&title=What+is+the+Royal+Path%3F+-+Royal+Path+001)
+- [Big Buck Bunny](https://netflifans.borsh.xyz/?hash=QmZgjPQatJ5BJDzDn3uNULLvXTrpdUg5SbP2SWfQrSSDh4&title=test)
 
 ## How to make compatible videos:
 
@@ -29,16 +28,15 @@ Here is a Bash script you can use to encode a video into a HLS folder with a pla
 
 A folder produced this way can be posted to IPFS, and that hash is used in this page URL. Here are two hashes created following this format:
 
-- `QmdpAidwAsBGptFB3b6A9Pyi5coEbgjHrL3K2Qrsutmj9K` - Big Buck Bunny
-- `QmYzdc44xBkVgp8aWJW57KprjDs5j2hmN8g7eDqm5pvY8L` - Royal Path episode 001
+- `QmZgjPQatJ5BJDzDn3uNULLvXTrpdUg5SbP2SWfQrSSDh4` - test
 
 The output from the `ipfs` command is the hash to use with this page.
 
 Two example URLs:
 
-https://ipfsvideo.cc/?hash=QmdpAidwAsBGptFB3b6A9Pyi5coEbgjHrL3K2Qrsutmj9K&title=Big%20Buck%20Bunny
+https://netflifans.borsh.xyz/?hash=QmdpAidwAsBGptFB3b6A9Pyi5coEbgjHrL3K2Qrsutmj9K&title=Big%20Buck%20Bunny
 
-https://ipfsvideo.cc/?hash=QmYzdc44xBkVgp8aWJW57KprjDs5j2hmN8g7eDqm5pvY8L&title=Royal+Path+001+-+What+is+the+Royal+Path%3F
+https://netflifans.borsh.xyz/?hash=QmYzdc44xBkVgp8aWJW57KprjDs5j2hmN8g7eDqm5pvY8L&title=Royal+Path+001+-+What+is+the+Royal+Path%3F
 
 ## Development
 
